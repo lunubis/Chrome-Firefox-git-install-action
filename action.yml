@@ -9,11 +9,11 @@ inputs:
     # required: true
   firefox:
     type: boolean
-    default: false
+    default: true
     # required: true
   git:
     type: boolean
-    default: false
+    default: true
     # required: true
   isWindows:
     type: boolean
@@ -61,5 +61,4 @@ runs:
 branding:
   icon: "package"
   color: "blue"
-workflow_run
 
