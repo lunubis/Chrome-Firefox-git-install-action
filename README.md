@@ -21,7 +21,6 @@ name: Example Workflow
 
 on: [push]
 
-jobs:
   build:
     runs-on: ubuntu-latest
     steps:
