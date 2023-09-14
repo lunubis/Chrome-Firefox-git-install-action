@@ -1,5 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
+on: workflow_run
 name: Install Chrome, Firefox and Git on OS
 description: Install Chrome, Firefox and Git on OS
 inputs:
@@ -9,11 +10,11 @@ inputs:
     # required: true
   firefox:
     type: boolean
-    default: false
+    default: true
     # required: true
   git:
     type: boolean
-    default: false
+    default: true
     # required: true
   isWindows:
     type: boolean
